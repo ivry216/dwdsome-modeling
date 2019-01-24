@@ -36,7 +36,7 @@ if (have_in_memory)
 }
 
 # Use incoming water as input
-incoming_as_imput <- TRUE
+incoming_as_input <- TRUE
 
 # 
 if (incoming_as_imput) {
