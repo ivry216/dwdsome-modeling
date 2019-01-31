@@ -95,11 +95,11 @@ for (line_i in seq(4)) {
 
 # Inputs timestampts
 inputs_changing_timestamps <- list(
-  as.POSIXct("02.08.2017", format = "%d.%m.%Y", origin = "01.01.1970", tz = "UTC"),
-  as.POSIXct("04.08.2017", format = "%d.%m.%Y", origin = "01.01.1970", tz = "UTC"),
-  as.POSIXct("14.08.2017", format = "%d.%m.%Y", origin = "01.01.1970", tz = "UTC"),
-  as.POSIXct("16.08.2017", format = "%d.%m.%Y", origin = "01.01.1970", tz = "UTC"),
-  as.POSIXct("18.08.2017", format = "%d.%m.%Y", origin = "01.01.1970", tz = "UTC")
+  as.POSIXct("02.08.2017 11:55", format = "%d.%m.%Y %H:%M", origin = "01.01.1970", tz = "UTC"),
+  as.POSIXct("03.08.2017 15:30", format = "%d.%m.%Y %H:%M", origin = "01.01.1970", tz = "UTC"),
+  as.POSIXct("14.08.2017 13:50", format = "%d.%m.%Y %H:%M", origin = "01.01.1970", tz = "UTC"),
+  as.POSIXct("16.08.2017 14:30", format = "%d.%m.%Y %H:%M", origin = "01.01.1970", tz = "UTC"),
+  as.POSIXct("17.08.2017 16:55", format = "%d.%m.%Y %H:%M", origin = "01.01.1970", tz = "UTC")
 )
 inputs_changing_timestamps <- unlist(lapply(inputs_changing_timestamps, as.numeric))
 
